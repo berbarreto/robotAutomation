@@ -1,0 +1,31 @@
+Exercício 1:
+ - Completar o código com a keyword que está faltando dentro do
+   arquivo de teste "Tests\TC001_Keywords.robot".
+ - Completar o código com os elementos que estão faltando dentro do
+   resource "Resource/TC001_Keywords.robot".
+ - Está faltando declarar duas Keywords, encontre e corrija o código.
+ - Rodar o teste e garantir que está fazendo o esperado.
+
+Exercício 2:
+ - Ajuste o arquivo de teste "TC002_BDD.robot" utilizando o BDD.
+ - Complete o código com os elementos que estão faltando dentro do
+   resource "Resource/TC002_BDD.robot".
+ - Rodar o teste e garantir que está fazendo o esperado.
+
+Exercício 3:
+ - Implementar o "Test Setup" e o "Test Teardown" no arquivo de
+   teste "TC003_Setup_Teardown.robot".
+ - Criar as keywords correspondentes no arquivo resource "Resource/TC003_Setup_Teardown.robot".
+ - Rodar o teste e garantir que está fazendo o esperado.
+
+################################################################
+Exercício final:
+ - Automatizar o site: http://automationpractice.com
+ - Utilizar um arquivo resource para as keywords;
+ - Fazer em BDD utilizando o cenário abaixo;
+
+ Scenario: Automation Practice
+ - Given the user will stay in HOME screen of the site Automation Practice
+ - When the user to search "Faded Short Sleeve T-shirts"
+ - And the user to click on the product for more details
+ - Then the search return with the result "Faded Short Sleeve T-shirts"
